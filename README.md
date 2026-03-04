@@ -9,7 +9,16 @@ The model leverages **Bidirectional LSTM and SimpleRNN layers** to capture conte
 This project demonstrates the **complete NLP pipeline**, including text preprocessing, tokenization, sequence padding, model training, and evaluation.
 
 ---
+## Project Structure
 
+```
+sentiment-analysis/
+│
+├── sentiment_analysis_bilstm.ipynb
+├── README.md
+├── requirements.txt
+└── dataset/
+```
 ## Problem Statement
 
 Sentiment Analysis is a common NLP task used to determine the emotional tone behind a body of text. It is widely used in:
@@ -49,28 +58,6 @@ The project follows a structured machine learning pipeline:
 
 ---
 
-## Model Architecture
-
-The model architecture consists of:
-
-Embedding Layer
-⬇
-Bidirectional LSTM Layer
-⬇
-Batch Normalization
-⬇
-Dropout Layer
-⬇
-Bidirectional SimpleRNN
-⬇
-Fully Connected Dense Layers
-⬇
-Softmax Output Layer
-
-This architecture allows the model to capture both **forward and backward context** in text sequences.
-
----
-
 ## Key Features
 
 * End-to-end NLP pipeline
@@ -78,18 +65,6 @@ This architecture allows the model to capture both **forward and backward contex
 * Bidirectional sequence modeling
 * Regularization using Dropout
 * Batch normalization for training stability
-
----
-
-## Model Training
-
-The model is trained using:
-
-Optimizer: Adam
-Loss Function: Categorical Crossentropy
-Evaluation Metric: Accuracy
-
-Training is performed on padded text sequences generated from tokenized text data.
 
 ---
 
@@ -117,13 +92,4 @@ Possible enhancements for this project include:
 
 ---
 
-## Project Structure
 
-```
-sentiment-analysis/
-│
-├── sentiment_analysis_bilstm.ipynb
-├── README.md
-├── requirements.txt
-└── dataset/
-```
