@@ -17,7 +17,6 @@ sentiment-analysis/
 ├── sentiment_analysis_bilstm.ipynb
 ├── README.md
 ├── requirements.txt
-└── dataset/
 ```
 ## Problem Statement
 
