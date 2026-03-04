@@ -91,5 +91,18 @@ Possible enhancements for this project include:
 * Creating a web interface for real-time sentiment prediction
 
 ---
+## Dataset
+
+The dataset used in this project is available on Kaggle.
+
+Dataset Link:
+https://www.kaggle.com/datasets/abhi8923shriv/sentiment-analysis-dataset
+
+The dataset contains labeled text samples for sentiment classification.
+
+### Sentiment Classes
+- Positive
+- Negative
+- Neutral
 
 
